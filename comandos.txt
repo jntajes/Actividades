@@ -1,0 +1,19 @@
+  141  mkdir Actividades/"Deportes de equipo"/
+  142  mkdir Actividades Actividades/"Deportes de equipo" Actividades/"Deportes acuaticos" Actividades/"Deportes extremos" Actividades/"Deportes de mesa" Actividades/"Deportes mentales"
+  143  touch "Deportes de equipo"/Basquet "Deportes de mesa"/"Ping pong" "Deportes mentales"/Ajedrez.txt
+  144  touch "Deportes de equipo"/Basquet
+  145  touch Actividades/"Deportes de equipo"/Basquet Actividades/"Deportes de mesa"/"Ping pong" Actividades/"Deportes mentales"/Ajedrez.txt
+  146  cd Actividades/
+  147  ls
+  148  ls -R
+  149  ls -a
+  150  rm "Deportes extremos"
+  151  rm -r "Deportes extremos"
+  152  PWD
+  153  git init
+  154  git add .
+  155  git commit -m "primer commit"
+  156  git branch -M main
+  157  git remote add origin https://github.com/jntajes/Actividades.git
+  158  git push -u origin main
+  159  history > comandos.txt
